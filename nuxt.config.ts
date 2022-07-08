@@ -6,7 +6,11 @@ export default defineNuxtConfig({
   meta: {
     script: [{ src: "https://kit.fontawesome.com/a2743438da.js" }],
   },
-
+  head: {
+    link: [
+      { rel: "icon", type: "image/png", href: "/assets/icons/favicon.ico" },
+    ],
+  },
   content: {
     highlight: {
       theme: "material-palenight",
