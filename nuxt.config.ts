@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: "material-palenight",
-      preload: ["bash", "typescript", "javascript"],
+      preload: ["bash", "typescript", "javascript", "tsx", "jsx", "json"],
     },
   },
 });
