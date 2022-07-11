@@ -660,6 +660,7 @@ export const todoReducer = createReducer(
   on(TodoApiActions.addItemFailed, (state, { error }) => ({
     ...state,
     error: error,
+    loading: false,
   })),
 
   // Delete Item
@@ -809,6 +810,11 @@ export class TodoEffects {
 არ იფიქროთ, რომ NgRx-ს ერთი წაკითხვით დაეუფლებით. საჭიროების შემთხვევაში რამდენიმეჯერ გადაიკითხეთ ეს მასალა, გაეცანით ოფიციალურ დოკუმენტაციებს და, რა თქმა უნდა, თქვენით სცადეთ მისი გამოყენება.
 
 წარმატებები!
+
+## კოდის რეპოზიტორია
+
+- საწყისი კოდი: https://github.com/CondensedMilk7/ng-lesson-todo/tree/ngrx-starter
+- საბოლოო კოდი: https://github.com/CondensedMilk7/ng-lesson-todo/tree/ngrx-finished
 
 ## დოკუმენტაციები
 
