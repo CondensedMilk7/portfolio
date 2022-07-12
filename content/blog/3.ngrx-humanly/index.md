@@ -10,7 +10,7 @@ language: geo
 
 ![](https://i.imgur.com/jxyBTN1.png)
 
-> **შენიშვნა:** მალე დაიდება ვიდეო გაკვეთილი და მასთან ერთად საბოლოო კოდი.
+> **ვიდეოს ბმული:** https://youtu.be/_kH0PG0Pf-4.
 
 ## შესავალი
 
@@ -692,6 +692,7 @@ export const todoReducer = createReducer(
   on(TodoApiActions.updateItemFailed, (state, { error }) => ({
     ...state,
     error: error,
+    loading: false,
   }))
 );
 ```
