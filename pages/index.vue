@@ -12,4 +12,8 @@
 definePageMeta({
   layout: false,
 });
+
+useHead({
+  title: "Pridon Tetradze",
+});
 </script>

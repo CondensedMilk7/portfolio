@@ -133,10 +133,10 @@
   </main>
 </template>
 
-<script>
-export default {
-  name: "ProjectsShowcase",
-};
+<script setup>
+useHead({
+  title: "Pridon Tetradze: Projects",
+});
 </script>
 
 <style scoped>

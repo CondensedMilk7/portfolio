@@ -16,3 +16,9 @@
     </main>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: "Pridon Tetradze: Blog",
+});
+</script>
